@@ -1,18 +1,20 @@
-# Skills para Codex
+# Nacional Skills
 
-Coleção pública de skills reutilizáveis. Cada pasta contém um `SKILL.md` e, quando necessário, referências de apoio. Os arquivos desta coleção não devem incluir dados de clientes, credenciais nem materiais internos do escritório.
+Coleção pública de instruções reutilizáveis para assistentes de IA usados no escritório. As skills são organizadas por sistema e por tarefa. Cada skill tem seu próprio `SKILL.md` e, quando necessário, arquivos de referência.
 
-## Skills disponíveis
+Não publique dados de clientes, credenciais, planilhas internas ou relatórios completos neste repositório.
 
-| Skill | Uso |
+## Sistemas
+
+| Sistema | Skills |
 |---|---|
-| [siagri-rtm-field-audit](siagri-rtm-field-audit/SKILL.md) | Cruzar campos do Siagri, consulta RTM, colunas visíveis e necessidades de importação de notas. |
+| [Siagri](siagri/) | [Auditoria de campos em RTM](siagri/auditoria-campos-rtm-siagri/SKILL.md) |
 
-## Instalação no Codex
+## Como usar
 
-No Codex, peça para instalar a skill a partir de `https://github.com/Ronan-Alves/codex-skills/tree/main/siagri-rtm-field-audit`. O instalador também aceita o repositório `Ronan-Alves/codex-skills` com o caminho `siagri-rtm-field-audit`.
+Abra o `SKILL.md` da tarefa e siga as instruções na ferramenta de IA que você utiliza. Cada ferramenta pode ter uma forma diferente de importar ou instalar skills.
 
-Depois da instalação, a skill estará disponível no próximo turno; você também poderá invocá-la explicitamente como `$siagri-rtm-field-audit`.
+No Codex, peça para instalar a skill pelo caminho `https://github.com/Ronan-Alves/nacional-skills/tree/main/siagri/auditoria-campos-rtm-siagri`. Depois da instalação, ela também pode ser invocada como `$auditoria-campos-rtm-siagri`.
 
-Os mapas de campos são pontos de partida. Confirme sempre a versão do Siagri, a consulta do RTM e os valores retornados em notas reais.
+Os mapas de campos são pontos de partida. Confirme sempre a versão do sistema, as consultas e os valores em documentos reais.
 
