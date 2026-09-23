@@ -5,7 +5,7 @@ description: Mapear campos de notas de entrada e saída do Siagri em relatórios
 
 # Auditoria de campos Siagri em RTM
 
-Use esta skill ao investigar quais campos do Siagri alimentam uma conferência de notas, ao corrigir um RTM ou ao montar uma matriz entre um importador, o relatório e um catálogo de tabelas. O [mapa de campos](references/field-map.md) reúne candidatos já identificados; confirme sua disponibilidade e significado na instalação em análise.
+Use esta skill ao investigar quais campos do Siagri alimentam uma conferência de notas, ao corrigir um RTM ou ao montar uma matriz entre um importador, o relatório e um catálogo de tabelas. O [mapa de campos](referencias/mapa-campos.md) reúne candidatos já identificados. O [catálogo completo](referencias/catalogo-campos-siagri.tsv) permite pesquisar outros campos; confirme a disponibilidade e o significado deles na instalação em análise.
 
 ## Como estabelecer o mapeamento
 
